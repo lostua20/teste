@@ -1,0 +1,82 @@
+@charset 'UTF-8';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.imagens-container img {
+  /* text-align: center; /* Centraliza as imagens horizontalmente */
+  /*display: flex; 
+ margin-right: 10px 10px 10px 10px;
+ float: left; /*
+}
+
+img-container figure {
+  display: flex;
+  margin-right: 10px;
+  display: inline-block; /* Exibe as figuras lado a lado */
+  margin: 10px 20px; /* Espaçamento horizontal entre as figuras */
+  vertical-align: top; /* Alinha as figuras pela parte superior */
+}
+
+img-container img {
+  max-width: 10%; /* Garante que as imagens não ultrapassem a largura da figura */
+  height: auto; /* Mantém a proporção da imagem */
+  margin-right: 10px;
+}
+
+.imagens-container figcaption {
+  margin-top: 5px; /* Espaçamento entre a imagem e o texto de legenda */
+  font-size: 14px; /* Tamanho da fonte da legenda */
+}
+
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+}
+header > nav {
+  display: flex;
+}
+
+header nav div {
+  font-weight: bolder;
+  margin-right: 10px; /* Adicionar margem à direita para separar os elementos */
+  padding: 5px 10px; /* Espaçamento interno */
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer; /* Alterar o cursor ao passar por cima */
+}
+
+header nav div:hover {
+  background-color: #dafdba; /* Cor de fundo ao passar o mouse */
+}
+nav {
+  text-align: center;
+  display: flex;
+  gap: 20px;
+}
+
+nav div {
+  cursor: pointer;
+}
+
+main {
+  text-align: center;
+}
+
+section {
+  margin: 20px 0;
+}
+
+p {
+  font-family: sans-serif;
+  color: gray;
+  text-align: center;
+}
